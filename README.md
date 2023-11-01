@@ -1,1 +1,1 @@
-# Lista de Ativodades de Padrões de Projetos em Java Estácio
+# Lista de Atividades de Padrões de Projetos em Java Estácio
