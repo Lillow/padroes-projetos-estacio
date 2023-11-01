@@ -1,0 +1,36 @@
+Alguns exemplos de sistemas ou aplicativos do mundo real que aplicam os padrões de design GoF (Gang of Four):
+
+Java AWT e Swing (Observer): As bibliotecas gráficas Java AWT (Abstract Window Toolkit) e Swing fazem uso extensivo do padrão Observer 
+para atualizar automaticamente a interface do usuário quando os modelos de dados subjacentes são alterados. 
+Por exemplo, quando você clica em um botão ou insere texto em um campo de entrada, 
+os componentes visuais são notificados para refletir as alterações.
+
+JDBC (Decorator): O Java Database Connectivity (JDBC) é uma API que permite a interação com bancos de dados relacionais. 
+Através do padrão Decorator, os drivers JDBC permitem adicionar funcionalidades específicas de banco de dados a uma conexão básica. 
+Cada driver JDBC age como um decorador, adicionando funcionalidades, como suporte a um banco de dados específico.
+
+Spring Framework (Dependency Injection e Singleton): O Spring Framework é um exemplo notável de aplicação de vários padrões GoF. 
+Ele utiliza o padrão Singleton para criar contêineres de aplicação únicos que gerenciam os objetos. 
+Além disso, o Spring usa o padrão Dependency Injection para injetar dependências nos objetos gerenciados, reduzindo o acoplamento entre componentes.
+
+JPA (Java Persistence API) e Hibernate (Proxy e Strategy): O JPA é uma API Java para mapeamento objeto-relacional. 
+O Hibernate é uma implementação popular do JPA. 
+O Hibernate utiliza o padrão Proxy para criar proxies de objetos que permitem carregar dados de maneira preguiçosa. 
+Além disso, o Hibernate utiliza o padrão Strategy para permitir diferentes estratégias de mapeamento.
+
+Apache Struts (Front Controller e Command): O Apache Struts é um framework web para criar aplicativos Java EE. 
+Ele segue o padrão Front Controller, onde um controlador central gerencia todas as solicitações. 
+Além disso, utiliza o padrão Command para representar ações que são executadas em resposta a solicitações do usuário.
+
+Ruby on Rails (Model-View-Controller - MVC): O Ruby on Rails é um framework de desenvolvimento web 
+que segue o padrão de arquitetura Model-View-Controller (MVC). 
+O MVC é uma forma de organização do código que separa a lógica de negócios (Model), 
+a apresentação (View) e a lógica de controle (Controller) em componentes distintos.
+
+Android OS (Adapter): O sistema operacional Android faz uso do padrão Adapter em vários pontos, 
+como a RecyclerView e os Adapters de ArrayAdapter e BaseAdapter. Esses adapters atuam como pontes entre os dados e a interface do usuário, 
+permitindo que diferentes tipos de dados sejam exibidos em widgets de interface do usuário.
+
+.NET Framework (Factory Method e Abstract Factory): O .NET Framework utiliza extensivamente o padrão Factory Method e o padrão Abstract Factory 
+para criar instâncias de objetos em muitos contextos. 
+Por exemplo, as classes StreamReader e StreamWriter utilizam o Factory Method para criar instâncias de leitores e gravadores de fluxo de dados.
